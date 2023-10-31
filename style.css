@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+ 
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+ 
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ 
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.iconList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconItem {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.projetos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+}
+
+.projectImg {
+    height: 50px;
+    width: 50px;
+}
+
+.pdf {
+    display: flex;
+    flex-direction: column;
+}
+
+.pdf img {
+    height: 100px;
+    width: 100px;
+}
+
+.noticia {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
